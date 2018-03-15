@@ -17,7 +17,7 @@ class TestCamelCase(unittest.TestCase):
         	self.assertEqual('123', camel.camel_case('123'))
 
 	def test_symbols(self):
-    		self.assertEqual('@@#^^', camelcase.camel_case('@@# ^ ^'))
+    		self.assertEqual('@@#^^', camel.camel_case('@@# ^ ^'))
 
 if __name__ == '__main__':
     unittest.main()
